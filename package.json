@@ -1,0 +1,29 @@
+{
+  "name": "xavier-syntax",
+  "displayName": "Xavier Syntax",
+  "publisher": "Devmachinist",
+  "author": "Matthew Teague",
+  "description": "A Xavier Syntax helper (text | html | xml), Javascript, and C#",
+  "version": "0.0.1",
+  "icon": "assets/Logo.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    " a"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "xavier",
+      "aliases": ["Xavier", "xavier"],
+      "extensions": [".xavier"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "xavier",
+      "scopeName": "source.xavier",
+      "path": "./syntaxes/xavier.tmLanguage.json"
+
+    }]
+  }
+}

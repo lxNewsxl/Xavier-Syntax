@@ -1,0 +1,53 @@
+{
+    "name":"Xavier",
+    "scopeName": "source.xavier",
+    "fileTypes": ["xavier"],
+    "patterns": [
+                {
+                        "include": "#xavier_csharp"
+                },
+                {
+                        "include": "#xavier_js"
+                },
+                {
+                        "include": "#xavier_delimiters"
+                },
+                {
+                        "include": "#html"
+                }
+        ],
+    "repository": {
+                "xavier_csharp": {
+                        "begin": "x\\{",
+                        "end": "\\}x",
+                        "patterns": [
+                                {
+                                        "include": "source.cs"
+                                }
+                        ]
+                },
+                "xavier_js": {
+                        "begin": "\\{\\{",
+                        "end": "\\}\\}",
+                        "patterns": [
+                                {
+                                        "include": "source.js"
+                                }
+                        ]
+                },
+                "xavier_delimiters": {
+                        "match": "x\\{|\\}x|\\{\\{|\\}\\}"
+                },
+                 "html": {
+                        "begin": "(?<=\\<)(?=\\/?[a-zA-Z]+)|(?<=\\>)(?=\\/?[a-zA-Z]+)|(?<=\")(?=\\/?[a-zA-Z]+)|(?<=\\{)(?=\\/?[a-zA-Z]+)|(?<=\\})(?=\\/?[a-zA-Z]+)|(?<=\\[)(?=\\/?[a-zA-Z]+)|(?<=\\])(?=\\/?[a-zA-Z]+)",
+                        "end": "(?<=\\/)(?=\\>)|(?<=\\/)(?=\")|(?<=\\/)(?=\\{)|(?<=\\/)(?=\\})|(?<=\\/)(?=\\[)|(?<=\\/)(?=\\])",
+                                 "patterns": [
+                                {
+                                        "include": "source.xml"
+                                }
+                        ]
+                
+                }
+
+        }
+}
