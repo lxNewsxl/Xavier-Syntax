@@ -30,10 +30,10 @@ Net7.0
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Html not recognized at root level...
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Init...

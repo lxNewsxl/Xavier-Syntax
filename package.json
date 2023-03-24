@@ -3,15 +3,15 @@
   "displayName": "Xavier Syntax",
   "publisher": "Devmachinist",
   "author": "Matthew Teague",
-  "description": "A Xavier Syntax helper (text | html | xml), Javascript, and C#",
-  "version": "0.0.1",
+  "description": "A Xavier Syntax helper in a VS Code extension",
+  "version": "0.0.2",
   "repository": "https://github.com/lxNewsxl/Xavier-Syntax.git",
   "icon": "assets/Logo.png",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": [
-    " a"
+    "Languages"
   ],
   "contributes": {
     "languages": [{
