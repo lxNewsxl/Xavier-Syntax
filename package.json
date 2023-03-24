@@ -5,6 +5,7 @@
   "author": "Matthew Teague",
   "description": "A Xavier Syntax helper (text | html | xml), Javascript, and C#",
   "version": "0.0.1",
+  "repository": "https://github.com/lxNewsxl/Xavier-Syntax.git",
   "icon": "assets/Logo.png",
   "engines": {
     "vscode": "^1.74.0"
